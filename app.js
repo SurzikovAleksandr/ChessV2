@@ -305,7 +305,7 @@ break
      if(x1>8 || x1 < 1 || y1 > 8 || y1<1 ){}else{
  y1*1
  x1*1
- if(e.target.id[3] == 'w'){if(y1 == 2) {hClv.push(arr[8-y1-2][x1-1].id)}
+ if(e.target.id[3] == 'w'){if(y1 == 2 & arr[8-y1-2][x1-1].id[3] == undefined) {hClv.push(arr[8-y1-2][x1-1].id)}
 if(x1 != 1) {if(arr[8-y1*1-1][x1*1-2].id[3] == ochi2) {hClv.push(arr[8-y1*1-1][x1*1-2].id)}}
  
 
@@ -316,7 +316,7 @@ if(x1 != 1) {if(arr[8-y1*1-1][x1*1-2].id[3] == ochi2) {hClv.push(arr[8-y1*1-1][x
 
 
 
- if(e.target.id[3] == 'b'){if(y1 == 7) {hClv.push(arr[8-y1+2][x1-1].id)}
+ if(e.target.id[3] == 'b'){if(y1 == 7 & arr[8-y1+2][x1-1].id[3] == undefined) {hClv.push(arr[8-y1+2][x1-1].id)}
 
  if(x1 != 1){if(arr[8-y1*1+1][x1*1-2].id[3] == ochi2) {hClv.push(arr[8-y1*1+1][x1*1-2].id)}}
  
